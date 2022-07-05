@@ -1,0 +1,138 @@
+*{
+box-sizing: border-box;
+margin: 0;
+    }  
+body {
+background: url("https://wallpaperaccess.com/full/1817138.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: repeat;
+color: white;
+font-family: helvetica;
+
+} 
+
+.outlineText{
+    color: white;
+    text-shadow: 
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000,  
+    -2px 0 0 #000000,
+    2px 0 0 #000000,
+    0 2px 0 #000000,
+    0 -2px 0 #000000;
+    ;
+}
+
+nav{
+    background-color: #33060671;
+    width: 100%;
+
+}
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+.lista a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 50px;
+}
+.menu .lista{
+    display: inline-block;
+}
+.lista-r{
+    float: right;
+}
+.lista a:hover{
+    background-color: rgb(88, 39, 39);
+}
+main{
+    text-align: center;
+}
+img{
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    border: 10px solid rgb(110, 13, 13);
+
+}
+p{
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+input{
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+    margin: 5px;
+    background-color: #33060671;
+    
+  
+}
+
+label{
+    font-size: 22px;
+    font-weight: 600;
+
+}
+#textarea{
+    border: 0;
+    font-size: 18px;
+    margin: 5px;
+    background-color: #33060671;
+    color: white;
+
+}
+button[type="submit"]{
+    background-color: rgb(102, 22, 22);
+    color: black;
+    padding: 10px;
+    font-family: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+input::placeholder{
+    color: white;
+
+}
+
+input:focus{
+    outline: none;
+    background-color: white;
+}
+
+.p1{
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#nombrep{
+    width: 50%;
+}
+#modelo{
+    width: 50%;
+}
