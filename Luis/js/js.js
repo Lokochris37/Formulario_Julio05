@@ -5,6 +5,7 @@ form.addEventListener("submit", (e)=>{
     console.log("Formulario recibido")
     e.preventDefault();
     LeerDatos();
+    
 })
 
 function LeerDatos(){
@@ -13,6 +14,7 @@ function LeerDatos(){
     mensaje = document.querySelector("textarea").value
     ValidarData(nombre, correo, mensaje)
     guardarLocalStorage(nombre,correo,mensaje)
+    form.reset();
 }
 
 function ValidarData (nombre, correo, mensaje){
