@@ -13,7 +13,6 @@ function LeerDatos(){
     correo = document.getElementById("correo").value
     mensaje = document.querySelector("textarea").value
     ValidarData(nombre, correo, mensaje)
-    guardarLocalStorage(nombre,correo,mensaje)
     form.reset();
 }
 
@@ -35,6 +34,7 @@ function ValidarData (nombre, correo, mensaje){
             let mensajeUs = localStorage.getItem("Mensaje")
             swal({  title: nombre, text: "Tu mensaje ha sido enviado con exito!", icon: "success",})
         }
+        guardarLocalStorage(nombre,correo,mensaje)
         
 }
 
